@@ -65,8 +65,8 @@ if ($id_product == 0){
 <p><label for="price">Price</label><input type="text" name="price" id="price" /></p>
 <p><label for="reference">Reference</label><input type="text" name="reference" id="reference" /></p>
 <p><label for="website">Website</label><input type="text" name="website" id="website" /></p>
-<p><select for="id_group">{$groups}</select></p>
-<p><select for="id_engine_version">{$engine}</select></p>
+<p><select name="id_group">{$groups}</select></p>
+<p><select name="id_engine_version">{$engine}</select></p>
 <p><input type="submit" /></p>
 </form>
 EOD;
